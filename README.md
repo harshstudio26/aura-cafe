@@ -2,6 +2,8 @@
 
 A modern, responsive café website built with HTML, CSS, and JavaScript.
 
+![AURA CAFE Preview]
+screenshot_20260917151750440.png
 ## 🌐 Live Demo
 
 [Visit AURA Café](https://harshstudio26.github.io/aura-cafe/)
