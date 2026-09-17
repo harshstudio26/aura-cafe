@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="AURA Café — specialty coffee, fresh food, and a warm atmosphere."
+  >
+
+  <title>AURA Café — Coffee. Food. Atmosphere.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a href="#home" class="logo">
+        AURA<span> Café</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#hours">Hours</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=85"
+          alt="Freshly brewed coffee on a café table"
+        >
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <p class="eyebrow">SPECIALTY COFFEE • FRESH FOOD</p>
+
+        <h1>
+          Your everyday escape,
+          <em>made beautiful.</em>
+        </h1>
+
+        <p class="hero-description">
+          Thoughtfully brewed coffee, fresh food, and a warm space
+          designed for slow mornings, good conversations, and everything
+          in between.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">
+            Explore Our Menu
+          </a>
+
+          <a href="#contact" class="btn btn-outline">
+            Find AURA
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+    <section class="intro section">
+      <div class="container intro-grid">
+
+        <div>
+          <p class="eyebrow dark">WELCOME TO AURA</p>
+
+          <h2>
+            Coffee with a little
+            <span>more feeling.</span>
+          </h2>
+        </div>
+
+        <p class="intro-text">
+          AURA Café is a fictional neighborhood café built around one
+          simple idea: the best moments don't need to be complicated.
+          Come for the coffee, stay for the atmosphere.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+    <section class="menu-section section" id="menu">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">OUR FAVORITES</p>
+            <h2>Made for your mood.</h2>
+          </div>
+
+          <p>
+            A carefully selected menu of café classics and AURA
+            favorites.
+          </p>
+        </div>
+
+
+        <div class="menu-grid">
+
+          <!-- Card 1 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80"
+                alt="Creamy cappuccino"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>Classic Cappuccino</h3>
+                <span>₹180</span>
+              </div>
+
+              <p>
+                Rich espresso, silky steamed milk and delicate foam.
+              </p>
+
+              <span class="tag">SIGNATURE</span>
+            </div>
+
+          </article>
+
+
+          <!-- Card 2 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh chocolate pastry"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>Chocolate Croissant</h3>
+                <span>₹160</span>
+              </div>
+
+              <p>
+                Buttery layers baked fresh with rich dark chocolate.
+              </p>
+
+              <span class="tag">BAKED FRESH</span>
+            </div>
+
+          </article>
+
+
+          <!-- Card 3 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=80"
+                alt="Warm cup of tea"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>AURA Chai</h3>
+                <span>₹140</span>
+              </div>
+
+              <p>
+                Aromatic Indian tea infused with warming spices.
+              </p>
+
+              <span class="tag">HOUSE BLEND</span>
+            </div>
+
+          </article>
+
+
+          <!-- Card 4 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh avocado toast"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>Avocado Toast</h3>
+                <span>₹260</span>
+              </div>
+
+              <p>
+                Sourdough toast, creamy avocado, herbs and seeds.
+              </p>
+
+              <span class="tag">ALL DAY</span>
+            </div>
+
+          </article>
+
+
+          <!-- Card 5 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh glazed doughnut"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>Glazed Doughnut</h3>
+                <span>₹120</span>
+              </div>
+
+              <p>
+                Soft, fluffy and finished with our signature glaze.
+              </p>
+
+              <span class="tag">FRESH TODAY</span>
+            </div>
+
+          </article>
+
+
+          <!-- Card 6 -->
+          <article class="menu-card">
+
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=80"
+                alt="Iced coffee"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="menu-info">
+              <div class="menu-title">
+                <h3>Cold Brew</h3>
+                <span>₹210</span>
+              </div>
+
+              <p>
+                Smooth, slow-steeped coffee served over ice.
+              </p>
+
+              <span class="tag">CHILLED</span>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-images">
+
+          <div class="about-image large">
+            <img
+              src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=85"
+              alt="Warm and inviting café interior"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="about-image small">
+            <img
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=85"
+              alt="People enjoying coffee in a café"
+              loading="lazy"
+            >
+          </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+          <p class="eyebrow dark">OUR STORY</p>
+
+          <h2>
+            A small café with
+            <em>a big aura.</em>
+          </h2>
+
+          <p>
+            AURA started with a love for the simple ritual of making
+            great coffee. We imagined a place where the morning could
+            slow down and an ordinary afternoon could become memorable.
+          </p>
+
+          <p>
+            Our fictional little café brings together carefully sourced
+            coffee, fresh ingredients and thoughtful design — creating
+            a space that feels familiar from the moment you walk in.
+          </p>
+
+          <a href="#contact" class="text-link">
+            Come say hello <span>→</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+    <section class="reviews section" id="reviews">
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="eyebrow dark">FROM OUR GUESTS</p>
+          <h2>Kind words.</h2>
+        </div>
+
+
+        <div class="reviews-grid">
+
+          <article class="review-card">
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “The kind of café where you plan to stay for an hour
+              and somehow end up spending the whole afternoon.”
+            </blockquote>
+
+            <p class="reviewer">— Maya R.</p>
+          </article>
+
+
+          <article class="review-card featured-review">
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “Beautiful atmosphere, genuinely good coffee and the
+              chocolate croissant is impossible to resist.”
+            </blockquote>
+
+            <p class="reviewer">— Aarav K.</p>
+          </article>
+
+
+          <article class="review-card">
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              “AURA has that rare feeling of being polished without
+              ever feeling pretentious.”
+            </blockquote>
+
+            <p class="reviewer">— Sofia M.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= HOURS ================= -->
+    <section class="hours-section section" id="hours">
+      <div class="container hours-box">
+
+        <div class="hours-intro">
+          <p class="eyebrow">COME BY ANYTIME</p>
+
+          <h2>
+            Your table
+            <em>is waiting.</em>
+          </h2>
+
+          <p>
+            Whether you're grabbing your morning coffee or meeting
+            friends after work, there's always a little room at AURA.
+          </p>
+        </div>
+
+
+        <div class="hours-list">
+
+          <div class="hours-row">
+            <span>Monday – Friday</span>
+            <strong>8:00 AM – 10:00 PM</strong>
+          </div>
+
+          <div class="hours-row">
+            <span>Saturday</span>
+            <strong>8:00 AM – 11:00 PM</strong>
+          </div>
+
+          <div class="hours-row">
+            <span>Sunday</span>
+            <strong>9:00 AM – 9:00 PM</strong>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+
+          <p class="eyebrow dark">FIND AURA</p>
+
+          <h2>
+            Let's make
+            <em>plans.</em>
+          </h2>
+
+          <p>
+            Drop in for a coffee, bring your laptop, meet someone
+            special, or simply take a moment for yourself.
+          </p>
+
+          <div class="contact-details">
+
+            <div class="contact-item">
+              <span class="contact-icon">⌖</span>
+
+              <div>
+                <h3>Visit us</h3>
+                <p>
+                  24 Aura Lane, Downtown<br>
+                  Mumbai, Maharashtra
+                </p>
+              </div>
+            </div>
+
+
+            <div class="contact-item">
+              <span class="contact-icon">☎</span>
+
+              <div>
+                <h3>Call us</h3>
+                <a href="tel:+919876543210">
+                  +91 98765 43210
+                </a>
+              </div>
+            </div>
+
+
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:hello@auracafe.example">
+                  hello@auracafe.example
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="map-placeholder">
+          <div class="map-content">
+            <span class="map-pin">●</span>
+            <h3>AURA Café</h3>
+            <p>24 Aura Lane, Mumbai</p>
+
+            <a
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="map-link"
+            >
+              Open in Maps →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          AURA<span> Café</span>
+        </a>
+
+        <p>
+          Coffee. Food. Atmosphere.
+        </p>
+      </div>
+
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#hours">Hours</a>
+      </div>
+
+
+      <div class="footer-column">
+        <h3>Connect</h3>
+
+        <a href="#contact">Contact</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+      <p>© 2026 AURA Café. All rights reserved.</p>
+
+      <a href="#home">Back to top ↑</a>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
